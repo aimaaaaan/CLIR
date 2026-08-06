@@ -5,6 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-ee4c2c.svg)](https://pytorch.org/)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-yellow.svg)](https://huggingface.co/)
 [![Kaggle Dataset](https://img.shields.io/badge/Kaggle-CLIR%20Dataset-blue)](https://www.kaggle.com/datasets/tanjilhasankhan/clir-dataset)
+[![QA Test Suite](https://img.shields.io/badge/QA%20Test%20Suite-155%20Cases-brightgreen)](TEST_CASES.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 An end-to-end, high-performance **Cross-Lingual Information Retrieval (CLIR)** framework designed for low-resource cross-lingual news search between **Bangla and English**. 
@@ -309,7 +310,8 @@ for r in prf_results:
 
 ```
 CLIR/
-├── README.md                           # Main Project Documentation (This File)
+├── README.md                           # Main Project Documentation
+├── TEST_CASES.md                       # Enterprise QA Test Suite (155 Test Cases)
 ├── Module A/                           # Data Collection & Pre-processing
 │   ├── README.md                       # Module A Scraper Guide
 │   ├── dataset_kaggle.txt              # Kaggle Dataset Reference
